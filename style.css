@@ -1,0 +1,32 @@
+
+
+header {
+    border: 1px solid green; 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.navbar {
+    
+}
+
+.navbar-list {
+    display: flex;
+    gap: 35px;
+    justify-content: right;
+    padding-right: 70px;
+    color: white;
+    list-style-type: none;
+    
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+.navbar-list a:hover {
+    color: #000;
+}
